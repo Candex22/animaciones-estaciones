@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashup Interactivo - Estaciones del Año</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🌈 Mashup Interactivo - Estaciones del Año 🌈</h1>
+        <h3>Creado por: Tu Nombre - PWD 7° 2°B</h3>
+    </header>
+
+    <main>
+        <div class="seasons-grid">
+            <!-- Primavera -->
+            <div class="season-container">
+                <h2>🌸 Primavera</h2>
+                <div id="spring-container" class="canvas-container"></div>
+                <div class="controls">
+                    <button id="spring-start" class="start-btn">Iniciar</button>
+                    <button id="spring-pause" class="pause-btn">Pausar</button>
+                </div>
+                <p class="interaction-hint">💡 Haz clic para hacer crecer flores</p>
+            </div>
+
+            <!-- Verano -->
+            <div class="season-container">
+                <h2>☀️ Verano</h2>
+                <div id="summer-container" class="canvas-container"></div>
+                <div class="controls">
+                    <button id="summer-start" class="start-btn">Iniciar</button>
+                    <button id="summer-pause" class="pause-btn">Pausar</button>
+                </div>
+                <p class="interaction-hint">💡 Mueve el mouse para crear ondas de calor</p>
+            </div>
+
+            <!-- Otoño -->
+            <div class="season-container">
+                <h2>🍂 Otoño</h2>
+                <div id="autumn-container" class="canvas-container"></div>
+                <div class="controls">
+                    <button id="autumn-start" class="start-btn">Iniciar</button>
+                    <button id="autumn-pause" class="pause-btn">Pausar</button>
+                </div>
+                <p class="interaction-hint">💡 Presiona cualquier tecla para hacer caer hojas</p>
+            </div>
+
+            <!-- Invierno -->
+            <div class="season-container">
+                <h2>❄️ Invierno</h2>
+                <div id="winter-container" class="canvas-container"></div>
+                <div class="controls">
+                    <button id="winter-start" class="start-btn">Iniciar</button>
+                    <button id="winter-pause" class="pause-btn">Pausar</button>
+                </div>
+                <p class="interaction-hint">💡 Arrastra el mouse para crear copos de nieve</p>
+            </div>
+        </div>
+
+        <div class="master-controls">
+            <button id="start-all" class="master-btn">🎬 Iniciar Todas las Animaciones</button>
+            <button id="pause-all" class="master-btn">⏸️ Pausar Todas las Animaciones</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>🎨 Creado con p5.js y Processing.js - EEST N.º 1 "Eduardo Ader" Vicente López</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
